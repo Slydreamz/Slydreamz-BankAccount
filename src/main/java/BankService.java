@@ -8,7 +8,7 @@ public class BankService {
     /**
      * The balance should be kept private. If it were public, then other developers could write code in other classes
      * that could cause the balance to exhibit unintended behavior, like being negative. The private access modifier
-     * will allow only the methods within this class to interact with the balance.
+     * will allow only the methods within this class to interact with the balance
      */
     private double balance;
     /**
